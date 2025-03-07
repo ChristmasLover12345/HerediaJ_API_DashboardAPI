@@ -8,9 +8,9 @@ namespace HerediaJ_API_DashboardAPI.Models
     public class StatsModel
     {
         public string? Total {get; set;}
-        public Array? Facebook {get; set;}
-        public Array? Twitter {get; set;}
-        public Array? Instagram {get; set;}
-        public Array? Youtube {get; set;}
+       public List<string>? Facebook { get; set; }
+        public List<string>? Twitter { get; set; }
+        public List<string>? Instagram { get; set; }
+        public List<string>? Youtube { get; set; }
     }
 }
